@@ -1,6 +1,6 @@
 import { IoTimeOutline } from "react-icons/io5";
 import { AiOutlineFire } from "react-icons/ai";
-export default function Recipe({recipe}) {
+export default function Recipe({recipe, handleWantToCook}) {
     const {recipe_image,recipe_name,short_description,ingredients,preparing_time,calories} = recipe;
   return (
     <div>
@@ -37,7 +37,7 @@ export default function Recipe({recipe}) {
             </div>
           </div>
           <div className="card-actions mt-5">
-            <button className="bg-[#0BE58A] py-3 px-6 rounded-full text-[#150B2B] text-lg font-medium">Want to Cook</button>
+            <button onClick={()=>handleWantToCook(recipe)} className="bg-[#0BE58A] py-3 px-6 rounded-full text-[#150B2B] text-lg font-medium">Want to Cook</button>
           </div>
         </div>
       </div>
