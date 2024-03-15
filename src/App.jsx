@@ -1,10 +1,13 @@
 import './App.css'
+import Header from './components/Header/Header'
 
 function App() {
 
   return (
     <>
-      <h1 className='bg-red-400'>Hello</h1>
+    <div className="container mx-auto">
+       <Header></Header>
+    </div>
     </>
   )
 }
