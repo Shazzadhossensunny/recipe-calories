@@ -5,42 +5,35 @@ import Cart from "./components/Cart/Cart";
 import Header from "./components/Header/Header";
 import Recipes from "./components/Recipes/Recipes";
 import { ToastContainer, toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [carts, setCarts] = useState([]);
- const [cooking, setCooking] = useState([]);
-  const handleWantToCook = (recipe) =>{
-    const isExists = carts.find((cart) => cart.recipe_id == recipe.recipe_id)
-    if(!isExists){
-      const newCarts = [...carts, recipe]
-      setCarts(newCarts)
-
-    }
-    else{
+  const [cooking, setCooking] = useState([]);
+  const [minutes, setMinutes] = useState(0);
+  const [calories, setCalories] = useState(0);
+  const handleWantToCook = (recipe) => {
+    const isExists = carts.find((cart) => cart.recipe_id == recipe.recipe_id);
+    if (!isExists) {
+      const newCarts = [...carts, recipe];
+      setCarts(newCarts);
+    } else {
       return toast.warn("Already Added");
     }
-
-  }
+  };
 
   const handleDelete = (cart) => {
-    const remaining = carts.filter((item) => item.recipe_id !== cart.recipe_id)
-    setCarts(remaining)
+    const remaining = carts.filter((item) => item.recipe_id !== cart.recipe_id);
+    setCarts(remaining);
 
-    const newCooking = [...cooking, cart]
-    setCooking(newCooking)
+    const newCooking = [...cooking, cart];
+    setCooking(newCooking);
 
-  }
-
-
-
-
-
-
-
-
-
-
+    const newMinutes = minutes + cart.preparing_time;
+    setMinutes(newMinutes);
+    const newCalories = calories + cart.calories;
+    setCalories(newCalories);
+  };
 
   return (
     <>
@@ -69,11 +62,16 @@ function App() {
             </div>
             {/* recipes cart */}
             <div className="w-full lg:w-1/3">
-              <Cart carts={carts} handleDelete={handleDelete} cooking={cooking}></Cart>
+              <Cart
+                carts={carts}
+                handleDelete={handleDelete}
+                cooking={cooking}
+                minutes={minutes}
+                calories={calories}
+              ></Cart>
             </div>
           </div>
         </div>
-
       </div>
       <ToastContainer />
     </>

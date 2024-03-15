@@ -1,4 +1,5 @@
-export default function Cart({ carts, handleDelete, cooking }) {
+import PropTypes from 'prop-types';
+export default function Cart({carts,handleDelete,cooking,minutes,calories,}) {
   return (
     <div className="border border-[#28282833] rounded-2xl pb-28">
       {/* want to cook */}
@@ -79,10 +80,21 @@ export default function Cart({ carts, handleDelete, cooking }) {
           <p>Total Calories = </p>
         </div>
         <div className="text-[#282828CC] font-medium flex justify-end gap-4 text-left">
-          <p>45 minutes</p>
-          <p>1050 calories</p>
+          <p>{minutes} minutes</p>
+          <p>{calories} calories</p>
         </div>
       </div>
     </div>
   );
+}
+
+Cart.propTypes = {
+    carts: PropTypes.array,
+    handleDelete: PropTypes.func,
+    cooking: PropTypes.array,
+    minutes: PropTypes.number,
+    calories: PropTypes.number
+
+
+
 }
