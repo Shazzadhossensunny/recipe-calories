@@ -12,8 +12,8 @@
       "1/2 tsp black pepper",
       "2 tbsp fresh parsley, chopped"
     ],
-    "preparing_time": "35 min",
-    "calories": "380 calories"
+    "preparing_time": 35,
+    "calories": 380
   },
   {
     "recipe_image": "https://i.ibb.co/5rQLR1f/pasta-dish-restaurant-table.jpg",
@@ -28,8 +28,8 @@
       "50 g grated Parmesan cheese",
       "1 tbsp olive oil"
     ],
-    "preparing_time": "25 min",
-    "calories": "420 calories"
+    "preparing_time": 25,
+    "calories": 420
   },
   {
     "recipe_image": "https://i.ibb.co/HVbzny0/tomatoes-basil-mozzarella-144627-15425.jpg",
@@ -44,8 +44,8 @@
       "2 tbsp extra virgin olive oil",
       "Salt and pepper to taste"
     ],
-    "preparing_time": "15 min",
-    "calories": "180 calories"
+    "preparing_time": 15,
+    "calories": 180
   },
   {
     "recipe_image": "https://i.ibb.co/gvVbh0g/mango-smoothies-74190-5827.jpg",
@@ -60,8 +60,8 @@
       "1 tbsp honey",
       "Ice cubes"
     ],
-    "preparing_time": "10 min",
-    "calories": "250 calories"
+    "preparing_time": 10,
+    "calories": 250
   },
   {
     "recipe_image": "https://i.ibb.co/9HkvsmH/lentil-soup-with-vegetables-bowl-black-background-123827-30217.jpg",
@@ -76,12 +76,12 @@
       "400 g canned diced tomatoes",
       "200 g canned kidney beans, drained"
     ],
-    "preparing_time": "40 min",
-    "calories": "280 calories"
+    "preparing_time": 40,
+    "calories": 280
   },
   {
     "recipe_image": "https://i.ibb.co/ChHwgD4/sweet-pancakes-with-berries-144627-1449.jpg",
-    "recipe_id": "006",
+    "recipe_id": "6",
     "recipe_name": "Blueberry Pancakes",
     "short_description": "Fluffy pancakes filled with juicy blueberries.",
     "ingredients": [
@@ -92,7 +92,7 @@
       "1/4 tsp salt",
       "1 cup buttermilk"
     ],
-    "preparing_time": "20 min",
-    "calories": "220 calories"
+    "preparing_time": 20,
+    "calories": 220
   }
 ]
