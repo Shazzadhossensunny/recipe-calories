@@ -3,7 +3,7 @@ import { IoIosSearch } from "react-icons/io";
 export default function Header() {
   return (
     <div>
-      <div className="navbar py-5">
+      <div className="navbar py-5 px-0">
         <div className="navbar-start w-full lg:w-1/2">
           <div className="dropdown">
             <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
