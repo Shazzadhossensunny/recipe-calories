@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner/Banner";
+import Cart from "./components/Cart/Cart";
 import Header from "./components/Header/Header";
 import Recipes from "./components/Recipes/Recipes";
 
@@ -24,13 +25,15 @@ function App() {
           </div>
 
           {/* recipes container */}
-          <div className="flex justify-between mt-6 lg:mt-12">
+          <div className="flex flex-col lg:flex-row justify-between mt-6 lg:mt-12 gap-6">
             {/* recipes */}
-            <div className="w-2/3">
+            <div className="w-full lg:w-2/3">
               <Recipes></Recipes>
             </div>
             {/* recipes cart */}
-            <div className="w-1/3"></div>
+            <div className="w-full lg:w-1/3">
+              <Cart></Cart>
+            </div>
           </div>
         </div>
       </div>
