@@ -1,0 +1,98 @@
+[
+  {
+    "recipe_image": "https://i.ibb.co/rtMLTMB/meat-with-mushroom-cream-sauce.jpg",
+    "recipe_id": "1",
+    "recipe_name": "Garlic Butter Chicken",
+    "short_description": "A savory and succulent chicken dish cooked in garlic butter sauce.",
+    "ingredients": [
+      "550 g chicken breasts",
+      "4 cloves garlic, minced",
+      "100 g unsalted butter",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "2 tbsp fresh parsley, chopped"
+    ],
+    "preparing_time": "35 min",
+    "calories": "380 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/5rQLR1f/pasta-dish-restaurant-table.jpg",
+    "recipe_id": "2",
+    "recipe_name": "Creamy Mushroom Pasta",
+    "short_description": "Delicious pasta with creamy mushroom sauce.",
+    "ingredients": [
+      "300 g pasta",
+      "200 g mushrooms, sliced",
+      "2 cloves garlic, minced",
+      "200 ml heavy cream",
+      "50 g grated Parmesan cheese",
+      "1 tbsp olive oil"
+    ],
+    "preparing_time": "25 min",
+    "calories": "420 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/HVbzny0/tomatoes-basil-mozzarella-144627-15425.jpg",
+    "recipe_id": "3",
+    "recipe_name": "Caprese Salad",
+    "short_description": "A refreshing salad with tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "3 large tomatoes, sliced",
+      "200 g fresh mozzarella cheese, sliced",
+      "1/4 cup fresh basil leaves",
+      "2 tbsp balsamic vinegar",
+      "2 tbsp extra virgin olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "15 min",
+    "calories": "180 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/gvVbh0g/mango-smoothies-74190-5827.jpg",
+    "recipe_id": "4",
+    "recipe_name": "Tropical Mango Smoothie",
+    "short_description": "A refreshing smoothie packed with tropical flavors.",
+    "ingredients": [
+      "2 ripe mangoes, peeled and diced",
+      "1 banana",
+      "200 ml coconut milk",
+      "100 g Greek yogurt",
+      "1 tbsp honey",
+      "Ice cubes"
+    ],
+    "preparing_time": "10 min",
+    "calories": "250 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/9HkvsmH/lentil-soup-with-vegetables-bowl-black-background-123827-30217.jpg",
+    "recipe_id": "5",
+    "recipe_name": "Minestrone Soup",
+    "short_description": "A hearty Italian vegetable soup with pasta and beans.",
+    "ingredients": [
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "2 celery stalks, diced",
+      "2 cloves garlic, minced",
+      "400 g canned diced tomatoes",
+      "200 g canned kidney beans, drained"
+    ],
+    "preparing_time": "40 min",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_image": "https://i.ibb.co/ChHwgD4/sweet-pancakes-with-berries-144627-1449.jpg",
+    "recipe_id": "006",
+    "recipe_name": "Blueberry Pancakes",
+    "short_description": "Fluffy pancakes filled with juicy blueberries.",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "1 tbsp sugar",
+      "1 tsp baking powder",
+      "1/2 tsp baking soda",
+      "1/4 tsp salt",
+      "1 cup buttermilk"
+    ],
+    "preparing_time": "20 min",
+    "calories": "220 calories"
+  }
+]
