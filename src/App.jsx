@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [carts, setCarts] = useState([]);
+ const [cooking, setCooking] = useState([]);
   const handleWantToCook = (recipe) =>{
     const isExists = carts.find((cart) => cart.recipe_id == recipe.recipe_id)
     if(!isExists){
@@ -25,6 +26,9 @@ function App() {
   const handleDelete = (cart) => {
     const remaining = carts.filter((item) => item.recipe_id !== cart.recipe_id)
     setCarts(remaining)
+
+    const newCooking = [...cooking, cart]
+    setCooking(newCooking)
 
   }
 
@@ -65,7 +69,7 @@ function App() {
             </div>
             {/* recipes cart */}
             <div className="w-full lg:w-1/3">
-              <Cart carts={carts} handleDelete={handleDelete}></Cart>
+              <Cart carts={carts} handleDelete={handleDelete} cooking={cooking}></Cart>
             </div>
           </div>
         </div>
