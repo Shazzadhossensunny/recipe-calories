@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="bg-[linear-gradient(0deg,rgba(21,11,43,0.90),rgba(21,11,43,0.00)),url('banner.png')] bg-no-repeat bg-cover bg-center rounded-3xl mt-7">
+    <div className="bg-[linear-gradient(0deg,rgba(21,11,43,0.90),rgba(21,11,43,0.00)),url('./banner.png')] bg-no-repeat bg-cover bg-center rounded-3xl mt-7">
         <div className="w-full lg:w-[900px] flex flex-col items-center mx-auto text-center justify-center h-full py-10 lg:py-0 px-2 lg:px-0 lg:h-[600px]">
         <h1 className="text-3xl lg:text-5xl font-bold text-white">Discover an exceptional cooking class tailored for you!</h1>
         <p className="text-base lg:text-lg font-normal text-white mt-6">
