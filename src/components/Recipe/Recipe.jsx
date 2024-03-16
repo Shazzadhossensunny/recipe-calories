@@ -14,7 +14,7 @@ export default function Recipe({ recipe, handleWantToCook }) {
     <div>
       <div className="card border border-[#28282833] p-6">
         <figure>
-          <img src={recipe_image} alt="recipe" className="rounded-xl" />
+          <img src={recipe_image} alt="recipe" className="rounded-xl h-full lg:h-[248px] w-full" />
         </figure>
         <div className="card-body p-0 pt-6">
           <h2 className="text-[#282828] text-xl font-semibold">
@@ -28,11 +28,11 @@ export default function Recipe({ recipe, handleWantToCook }) {
             <h3 className="text-[#282828] text-lg font-medium">
               Ingredients: {ingredients.length}
             </h3>
+
             <ul className="text-[#878787] text-lg font-normal mt-4 list-disc list-inside">
-              {ingredients.map((ingredient, index) => (
-                <li key={index}>{ingredient}</li>
-              ))}
+            {ingredients.map((ingredient, index) => (<li key={index}>{ingredient}</li>))}
             </ul>
+
           </div>
           <div className="divider m-0"></div>
           <div className="flex items-center space-x-4">

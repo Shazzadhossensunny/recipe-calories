@@ -48,9 +48,7 @@ function App() {
               Our Recipes
             </h2>
             <p className="text-[#150B2B99] text-base font-normal">
-              Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus
-              vulputate netus pharetra rhoncus. Eget urna volutpat curabitur
-              elementum mauris aenean neque.{" "}
+            Discover a world of flavor with our signature recipes. From classic comfort foods to exotic dishes, each recipe is crafted to tantalize your taste buds and inspire your culinary creativity.
             </p>
           </div>
 
